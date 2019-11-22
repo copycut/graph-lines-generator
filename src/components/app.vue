@@ -22,11 +22,10 @@
 </template>
 
 <script>
-import Graph from "./components/graph.vue";
-import Control from "./components/control.vue";
+import Graph from "./graph.vue";
+import Control from "./control.vue";
 
 export default {
-	name: "app",
 	components: { Graph, Control },
 	data: function() {
 		return {

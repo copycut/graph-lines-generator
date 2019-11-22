@@ -4,14 +4,13 @@
 			class="input"
 			type="text"
 			v-model="value"
-			placeholder="Add an element"
+			placeholder="Type someting and hit enter key"
 		/>
 	</form>
 </template>
 
 <script>
 export default {
-	name: "control",
 	data() {
 		return {
 			value: ""
